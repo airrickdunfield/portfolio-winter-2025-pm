@@ -1,6 +1,8 @@
+@use "./functions.scss" as f;
+
 /* Grid System */
 .container {
-    max-width: 80rem; /* Maximum width of the website's grid */
+    max-width: f.rem(1920px);
     margin: 0 auto;
     padding: 0 1rem;
 }

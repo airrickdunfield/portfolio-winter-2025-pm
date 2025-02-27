@@ -6,7 +6,13 @@ function About() {
     return(
         <>
             <Header />
-            <h1>I am the About Page</h1>
+            <main className="container">
+                <div className="grid">
+                    <div className="col-12">
+                        <h1>About Page</h1>
+                    </div>
+                </div>
+            </main>
             <Footer />+
         </>
     )
