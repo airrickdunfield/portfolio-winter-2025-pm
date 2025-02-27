@@ -5,7 +5,19 @@ function Header() {
     return(
         <>
             <header className="site-header">
-                <h2>I am the header</h2>
+                <div className="container">
+                    <div className="grid">
+                        <div className="col-3">
+                            logo goes here
+                        </div>
+                        <div className="col-9">
+                            <ul>
+                                <li>About</li>
+                                <li>Home</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </header>
         </>
     );

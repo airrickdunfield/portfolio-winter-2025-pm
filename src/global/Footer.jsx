@@ -1,7 +1,25 @@
+import "./Footer.css";
+
 function Footer() {
 
     return (
-        <h2>I am the footer!</h2>
+        <>
+            <footer className="site-footer">
+                <div className="container">
+                    <div className="grid">
+                        <div className="col-4">
+                            column 1
+                        </div>
+                        <div className="col-4">
+                            column 2
+                        </div>
+                        <div className="col-4">
+                            column 3
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </>
     );
 
 }
