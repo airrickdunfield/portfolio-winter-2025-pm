@@ -11,7 +11,8 @@ function Home() {
                 <main className="container">
                     <div className="grid">
                         <div className="col-12">
-                            <h1>Home page</h1>
+                            <p className="h1">hello</p>
+                            <h1 className="h2">I'm airrick the front end dev</h1>
                         </div>
                     </div>
                 </main>
