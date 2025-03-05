@@ -1,3 +1,6 @@
+import { Link } from "react-router";
+import logo from "../assets/images/logo.png";
+
 import "./Header.css";
 
 function Header() {
@@ -6,14 +9,15 @@ function Header() {
         <>
             <header className="site-header">
                 <div className="container">
-                    <div className="grid">
+                    <div className="grid vertical-center">
                         <div className="col-3">
-                            logo goes here
+                            <img src={logo} className="site-header__logo" />
                         </div>
                         <div className="col-9">
                             <ul>
-                                <li>About</li>
-                                <li>Home</li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                                <li><Link to="/work">Work</Link></li>
                             </ul>
                         </div>
                     </div>

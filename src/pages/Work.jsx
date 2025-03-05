@@ -1,14 +1,11 @@
-import Header from "../global/Header"
-import Footer from "../global/Footer"
-
-function About() {
+function Work() {
 
     return(
         <>
             <div className="container">
                 <div className="grid">
                     <div className="col-12">
-                        <h1>I am the About Page</h1>
+                        <h1>I am the Work Page</h1>
                     </div>
                 </div>
             </div>
@@ -17,4 +14,4 @@ function About() {
 
 }
 
-export default About;
+export default Work;
